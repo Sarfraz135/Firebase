@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyAyMp2vcXSMNJx5ZJ0OMlfi1MndDaKkV_s",
+          authDomain: "database-project-849c7.firebaseapp.com",
+          databaseURL: "https://database-project-849c7.firebaseio.com",
+          projectId: "database-project-849c7",
+          storageBucket: "database-project-849c7.appspot.com",
+          messagingSenderId: "634344904489",
+          appId: "1:634344904489:web:8d7ce8bb5eb67f725a8938",
+          measurementId: "G-GL1SRLKS0S"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+</head>
+
+<body>
+    <div>
+        <input id="name" type="text" placeholder="name">
+        <br>
+        <input id="roll" type="text" placeholder="roll">
+        <br>
+        <button onclick="saveData()">Save</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

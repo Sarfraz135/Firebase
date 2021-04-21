@@ -1,0 +1,19 @@
+input{
+    width: 50%;
+    height: 100px;
+    font-size: 25px;
+    
+}
+
+input::placeholder{
+    font-size: 50px;
+}
+button{
+    width: 25%;
+    height: 70px;
+    font-size: 50px;
+
+}
+/* button{
+    font-size: 50px;
+} */
